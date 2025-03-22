@@ -1,0 +1,39 @@
+.scroll {
+    background-image: url("../img/a.jpg");
+    height: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.moon {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/moon.png");
+    background-size: cover;
+    transform: translate(-50%, -50%);
+}
+.star {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 250px;
+    height: 200px;
+    background-image: url("../img/star.png");
+    background-size: cover;
+    transform: translate(-50%, -50%);
+}
+.cometa {
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/cometa.png");
+    background-size: cover;
+    transform: translate(-50%, -50%);
+}
+

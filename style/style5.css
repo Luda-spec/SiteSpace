@@ -1,0 +1,65 @@
+body {
+    font-family: 'Franklin Gothic',  sans-serif;
+    background: rgb(197, 181, 197);
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+.row {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin: 50px;
+}
+.col-header {
+    width: 150px;
+    box-shadow: 4px 4px 9px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+}
+.item {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 9px rgb(0, 0, 0);
+    border-radius: 20px;
+    background: rgb(205, 141, 205);
+    padding: 0.8rem 1rem;
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+.item:active {
+    cursor: grabbing;
+}
+.placeholder {
+    width: 150px;
+    height: 50px;
+}
+.start {
+    background: linear-gradient(90deg,rgb(174, 77, 215)0%, rgb(113, 255, 253)  179.25%);
+}
+.progress {
+    background: linear-gradient(90deg,rgb(113, 255, 253)0%, rgb(17, 58, 107)  100%);
+}
+.done{
+    background: linear-gradient(90deg,rgb(119, 122, 231)0%, rgb(65, 6, 121)  100%);
+}
+.hold {
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(13, 247, 239);
+    color: white;
+}
+.hide {
+    display: none;
+}
+.hovered {
+    border-top: 2px solid rgb(197, 181, 197);
+}
+   

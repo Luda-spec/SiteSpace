@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    background-color: rgb(197, 181, 197);
+    display: flex;
+    font-family: 'Franklin Gothic',  sans-serif;
+}
+
+#boxercontainer {
+    top: 50px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 45%;
+    background-position: 50% 50%;
+    overflow: hidden;
+    height: 700px;
+}
+
+#boxercontainer div {
+    position: absolute;
+    width: 50%;
+    left: 20px;
+    border: 6px solid #7b0e79;
+    padding: 2rem;
+    font-size: 1.2rem;
+    background: rgb(154, 138, 154);
+    top: 30px;
+    border-radius: 10px;
+}
+
+#boxercontainer img {
+    position: absolute;
+    right: 50px;
+    width: auto;
+    height: 275px;
+    filter: drop-shadow(-100px 100px 50px rgb(18, 18, 18));
+    padding: 1rem;
+    z-index: 2;
+    bottom: 60px;
+}
+
+#boxercontainer h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+#boxercontainer p {
+    position: relative;
+    line-height: 1.5;
+    margin: 1rem;
+    z-index: 3;
+}

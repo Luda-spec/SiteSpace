@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(197, 181, 197);
+    display: flex;
+    font-family: 'Franklin Gothic',  sans-serif;
+}
+
+.sample-slider {
+    width: 80%;
+}
+
+.sample-slider img {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper {
+    margin: 100px;
+}
+
+.sample-slider .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+}
+
+.sample-slider .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+.swiper-pagination {
+    background-color: rgb(182, 157, 206);
+}

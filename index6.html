@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style6.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="img/planet.png"></li>
+                <li><a href="#" >Главная</a></li>
+                <li><a href="index3.html">Border1</a></li>
+                <li><a href="index4.html">Border2</a></li>
+                <li><a href="index2.html">Планеты</a></li>
+                <li><a href="index7.html" >Луна</a></li>
+                <li><a href="index8.html">Сатурн</a></li>
+                <li><a href="index5.html">Список дел</a></li>
+                <li><a href="index6.html" class="active">Игра</a></li>
+                <li><a href="index.html">Изображения</a></li>
+                <li><a href="index9.html">Интересное</a></li>
+                <li><a href="index10.html">Созвездия</a></li>
+                <li><a href="index11.html">Окошко</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="screen">
+        <h1>Aim Training</h1>
+        <a href="#" class="start" id="start">Начать игру</a>
+    </div>
+    <div class="screen">
+        <h1>Выбери время</h1>
+        <ul class="time-list" id="time-list">
+            <li>
+                <button class="time-btn" data-time="10">
+                    10 сек
+                </button>
+            </li>
+            <li>
+                <button class="time-btn" data-time="20">
+                    20 сек
+                </button>
+            </li>
+            <li>
+                <button class="time-btn" data-time="30">
+                    30 сек
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen">
+        <h2>Осталось <span id="time">00:00</span></h2>
+        <div class="board" id="board"></div>
+    </div>
+
+    <script src="script/script6.js"></script>
+</body>
+</html>

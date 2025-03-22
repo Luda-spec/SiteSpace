@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(197, 181, 197);
+    font-family: 'Franklin Gothic',  sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    }
+a:hover {
+    color: #79138a;
+}
+    
+.start {
+    font-size: 1.5rem;
+}
+h1 {
+    color: white;
+    line-height: 1.4;
+    font-size: 4rem;
+ }
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    transition: margin 0.5s ease-out;
+    background: linear-gradient(90deg, #b241a7 0%, #7bdcff 100%);
+ }
+    
+.time-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.time-list li {
+    margin: 10px;
+ }
+ .time-btn {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+ }
+.time-btn:hover {
+    border: 2px solid #79138a;
+    color: #79138a;
+ }
+
+ .hide {
+    opacity: 0;
+ }
+.primary {
+    color: #79138a;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(118.38deg, #9dcbff -4.6%, #43f2f8 200.44%);
+    box-shadow: -8px -8px 20px #000000, 10px 7px 20px #000000;
+    border-radius: 30px;
+    overflow: hidden;
+} 
+.circle {
+    cursor: pointer;
+    position: absolute;
+    color: yellow; 
+}
+ 
+
+.screen.up {
+    margin-top: -100vh;
+}
+.screen h2 {
+    padding: 20px;
+    color: white;
+}
